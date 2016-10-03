@@ -1,13 +1,17 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    motion-flow (0.1.8)
     rake (11.3.0)
+    timeliness (0.3.8)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  motion-flow
   rake
+  timeliness
 
 BUNDLED WITH
    1.11.2

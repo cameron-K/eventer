@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 $:.unshift("/Library/RubyMotion/lib")
 require 'motion/project/template/android'
-
 begin
   require 'bundler'
   Bundler.require
@@ -16,4 +15,5 @@ Motion::Project::App.setup do |app|
   app.sub_activities << "CalendarItemActivity"
   app.theme = "@android:style/Theme.Holo.Light"
   app.development { app.archs << 'x86' }
+  app.resources_dirs = ["./resources"]
 end
