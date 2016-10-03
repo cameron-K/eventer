@@ -11,6 +11,5 @@ class CalendarItemActivity < Android::App::Activity
     findViewById(R::Id::Title).text = calendar_item["title"]
     findViewById(R::Id::Start).text = calendar_item["starts_at"]
     findViewById(R::Id::End).text = calendar_item["ends_at"]
-    datetime = DateTime.parse(calendar_item["starts_at"])
   end
 end

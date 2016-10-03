@@ -1,5 +1,5 @@
 class AsyncGetCalendarItems < Android::Os::AsyncTask
-  attr_accessor :activity, :calendar_items
+  attr_accessor :activity
 
   def initialize(activity)
     self.activity = activity

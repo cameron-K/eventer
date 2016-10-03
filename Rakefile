@@ -11,7 +11,7 @@ end
 Motion::Project::App.setup do |app|
   # Use `rake config' to see complete project settings.
   app.name = 'Eventer'
-  app.package = "com.rubythree.eventer"
+  app.package = "com.cameronk.eventer"
   app.main_activity = "MainActivity"
   app.sub_activities << "CalendarItemActivity"
   app.theme = "@android:style/Theme.Holo.Light"
